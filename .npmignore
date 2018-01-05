@@ -1,0 +1,27 @@
+# dev
+/src
+/test
+/types
+/jest
+/.vscode
+.editorconfig
+.tsconfig.json
+.tslint.json
+
+# npm
+/node_modules
+yarn.lock
+*.log
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+CVS
+npm-debug.log
+yarn-error.log

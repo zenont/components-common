@@ -1,0 +1,22 @@
+{
+	"rootDir": "../",
+	"transform": {
+		"^.+\\.ts?$": "<rootDir>/node_modules/ts-jest/preprocessor.js",
+		"^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+	},
+	"moduleFileExtensions": [
+		"js",
+		"ts",
+		"tsx"
+	],
+	"testMatch": [
+		"**/__tests__/*.spec.(ts|tsx)"
+	],
+	"setupFiles": [
+		"raf/polyfill"
+	],
+	"snapshotSerializers": [
+		"enzyme-to-json/serializer"
+	],
+	"setupTestFrameworkScriptFile": "<rootDir>/jest/setup.ts"
+}
